@@ -1,0 +1,137 @@
+﻿.nav-tabs{
+    border-color:#32CD32;
+}
+
+.nav-tabs .active{
+    border-color:#32CD32;
+}
+
+.nav-tabs a
+{
+    color:black;  
+}
+
+.navigation .container{
+    height:40px;
+}
+
+.dropdown-menu::before {
+    border-bottom-color: black;
+}
+
+.jumbotron{
+background-image:url('../Images/Water Drop.jpg');
+height:100px;
+margin-left:auto;
+margin-right:auto;
+margin-top:25px;
+}
+
+.header h2 {
+    font-family: Harabara; 
+    color: #32CD32; 
+    font-size:60px;
+}
+
+.widewrapper {
+  width:100%;
+
+  }
+
+.widewrapper > img {
+  width:100%;
+}
+
+
+@font-face{
+font-family:"Diamond_Dust";
+src: url("../Fonts/Diamond Dust - PERSONAL USE ONLY.ttf") format('truetype');
+}
+
+@font-face{
+    font-family:"Harabara";
+    src: url("../Fonts/Harabara.ttf") format('truetype');
+}
+
+@font-face{
+    font-family:"MS Gothic";
+    src:url("../Fonts/SF Theramin Gothic Shaded Oblique.ttf");
+}
+
+.woods .thumbnail{
+    background-image:url('../Images/Water.jpg');
+    height:175px;
+}
+
+.woods h2{
+    color:white;
+    text-align:center;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+.footer{
+    clear:both;
+    margin-top:50px;
+
+}
+
+.footer .widewrapper{
+    height:10px;
+    background-image:none;
+    background-color:#32CD32;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+.footer .navbar-default{
+    margin-top:25px;
+}
+
+.footer .container{
+    text-align:left;
+}
+
+body{
+    background-color:#F5F5DC
+}
+
+.nav.nav-tabs a
+{
+    background-color: 	#F5F5DC;
+    border-bottom-color:#32CD32;
+}
+
+.nav.nav-tabs a:hover{
+    background-color:#F5F5DC;
+    border-color:#32CD32;
+    border-bottom-color:transparent;
+}
+
+.nav.nav-tabs .active a{
+        border-color:#32CD32;
+        border-bottom-color:transparent;
+        color:#32CD32;
+}
+
+.nav.nav-tabs .dropdown a{
+    background-color: 	#F5F5DC;
+}
+
+.nav.nav-tabs > li.dropdown.active.open > a, 
+.nav.nav-tabs > li.dropdown.active.open > ul.dropdown-menu a:hover,
+.nav.nav-tabs > li.dropdown.open > a, 
+.nav.nav-tabs > li.dropdown.open > ul.dropdown-menu a:hover
+{
+  color: black;
+  background-color: #F5F5DC;
+  border-color: #32CD32;
+  border-bottom-color:transparent;
+}
+
+.dropdown-menu{
+    background-color:#F5F5DC;
+    border-color:#32CD32;
+    border-top-color:transparent;
+}
